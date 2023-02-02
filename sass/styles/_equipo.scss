@@ -1,0 +1,54 @@
+.padre{
+    position: relative;
+}
+
+.padre{
+    position: relative;
+}
+.nombre{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    border-top-right-radius: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    transition:  all 0.7s ease-in-out;
+}
+.padre:hover .nombre{
+    height: 100%;
+    border-top-right-radius: 0;
+    opacity: .7;
+    align-items: center;
+}
+/*#equipo .transicion {
+    background-color: rgb(255, 165, 0);
+    box-sizing: unset;
+    height: 1.5rem;
+    border-radius: 0% 90% 0% 0%;
+}
+
+#equipo .transicion:hover {
+    background-color: rgba(255, 165, 0, .8);
+    box-sizing: unset;
+    border-top-right-radius: 0;
+}*/
+#imagen {
+    background-image: url("../../images/team-2.jpg");
+    background-size: cover;
+    height: 15rem;
+    width: 15rem;
+}
+#imagen div {
+    height: 25px;
+    border-top-right-radius: 100%;
+    transition: all 0.7s ease-in-out;
+}
+#imagen div:hover {
+    height: 100%;
+    border-top-right-radius: 0%;
+    display: flex;
+    align-items: center;
+    opacity: .7;
+}

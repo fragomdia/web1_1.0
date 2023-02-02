@@ -1,0 +1,20 @@
+.hero {
+    background-image: url(../../images/headerback.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    background-color: lightgray;
+    opacity: .6;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.texto {
+    z-index: 10;
+}

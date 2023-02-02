@@ -1,0 +1,14 @@
+@use "sass:map";
+$theme-colors: (
+  "orange": rgb(255, 115, 0),
+  "azulon": rgb(89, 87, 204),
+  "clarito": rgb(245, 245, 245),
+);
+
+@import "_nav.scss";
+@import "_hero.scss";
+@import "_portfolio.scss";
+@import "_tarjeta.scss";
+@import "_equipo.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
